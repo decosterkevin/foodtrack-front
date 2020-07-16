@@ -1,0 +1,45 @@
+{
+  "noDataText": "No data text",
+  "footer": {
+    "intro": "Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.",
+    "about": "about",
+    "about-us": "About us",
+    "contacts": "Contacts",
+    "terms": "Terms & Condition",
+    "privacy": "Privacy policy",
+    "follow-us": "Follow us",
+    "newsletter": "Wish to stay in contact?",
+    "your-email": "Your email"
+  },
+  "general": {
+    "search": "Search",
+    "register": "Register",
+    "profile": "Profile",
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email address",
+    "username": "Username",
+    "password": "Password",
+    "view": "View",
+    "delete": "Delete",
+    "edit": "Edit",
+    "my_product": "My products",
+    "confirme-password": "Confirme password",
+    "is_productor": "Are you a productor?",
+    "birthdate": "Birthdate"
+  },
+  "address": {
+    "field": "Your address",
+    "street": "Street",
+    "postal_code": "Postal code",
+    "city": "City",
+    "country": "Country"
+  },
+  "profile": {
+    "my": "My profile",
+    "bio": "Biography"
+  },
+  "product": {
+    "description": "Description"
+  }
+}

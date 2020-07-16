@@ -1,0 +1,134 @@
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: 0.75rem;
+}
+
+body {
+  min-height: 100vh;
+  height: 100vh;
+  background-image: linear-gradient( to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("/images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.products-table {
+  margin-top: 10vh;
+  background: white;
+}
+
+section {
+  padding-top: 10vh;
+  position: relative;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.toasted-container .toasted > svg {
+  margin-right: .5rem;
+  margin-left: -.4rem;
+}
+
+.dark-theme {
+  color: #fff;
+}
+
+.dark-theme h1 {
+  font-family: cursive;
+  font-size: 5rem;
+}
+
+.dark-theme h2 {
+  font-family: cursive;
+  font-size: 2rem;
+}
+
+.dark-theme p {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input{
+  height: auto;
+  border-radius: 5rem;
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+
+/* Fallback for Edge
+  -------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+  -------------------------------------------------- */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+@media (max-width: 978px) {
+  .section {
+    padding:0;
+    margin:0;
+  }
+
+  body {
+    padding:0;
+  }
+
+  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom:0;
+  }
+}

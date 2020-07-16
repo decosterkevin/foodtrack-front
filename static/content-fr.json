@@ -1,0 +1,45 @@
+{
+  "noDataText": "Pas de text",
+  "footer": {
+    "intro": " French",
+    "about": "A propos",
+    "about-us": "Qui sommes nous?",
+    "contacts": "Nous contacter",
+    "terms": "Termes et conditions",
+    "privacy": "Politique de confidentialité",
+    "follow-us": "Nous suivre",
+    "newsletter": "Souhaitez vous rester en contacts?",
+    "your-email": "Votre email"
+  },
+  "general": {
+    "search": "Chercher",
+    "register": "Inscription",
+    "profile": "Profile",
+    "login": "S'identifier",
+    "logout": "Deconnection",
+    "email": "Addresse email",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "view": "Visioner",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "my_product": "Mes produits",
+    "confirme-password": "Confirme mot de passe",
+    "is_productor": "Etes vous un productor?",
+    "birthdate": "Date de naissance"
+  },
+  "address": {
+    "field": "Votre adresse",
+    "street": "Rue",
+    "postal_code": "Code Postal",
+    "city": "Ville",
+    "country": "Pays"
+  },
+  "profile": {
+    "my": "Mon profile",
+    "bio": "Biographie"
+  },
+  "product": {
+    "description": "Description"
+  }
+}
